@@ -13,12 +13,12 @@ and odd numbers are entered.
 5. WAP to find area and perimeter of different shapes (circle,rectangle,square) using
 user defined functions
 6. WAP to input numbers in the list and perform linear and binary search. `TBC`
-7. WAP to Read a text file line by line and display each word separated by a #. `TBC`
+7. WAP to Read a text file line by line and display each word separated by a #.
 8. Read a text file and display the number of vowels/consonants/uppercase/lowercase
-characters in the file. `TBC`
+characters in the file. 
 9. Write a program to read the content of file line by line and write to another file
-except for lines containing letter ‘a’. `TBC`
-10. WAP to count the words ‘this’ and ‘that’ in text file `TBC`
+except for lines containing letter ‘a’.
+10. WAP to count the words ‘this’ and ‘that’ in text file
 11. Create a binary file with name and roll number. Search for a given roll number and
 display the name, if not found display appropriate message. `TBC`
 12. Create a binary file with roll number, name and marks. Input a roll number and
