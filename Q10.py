@@ -1,11 +1,7 @@
 # WAP to count the words ‘this’ and ‘that’ in text file
 try:
-    file = open(r"sample.txt","r")
-
-    data = file.read().lower()
-    print(f"Number of this = {data.count('this')}")
-    print(f"Number of the = {data.count('the')}")
-
-    file.close()
+    with open("sample.txt") as file:
+        data = file.read().lower()
+        print(f"Number of occurences of: \n[This, That] = {[data.count('this'), data.count('that')]}")
 except FileNotFoundError:
     print("File does not exist")
