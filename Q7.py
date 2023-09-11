@@ -1,12 +1,7 @@
 # WAP to Read a text file line by line and display each word separated by #.
-
-try: 
-    file = open(r"sample.txt","r")
-
-    for line in file.readlines():
-        for word in line.split():
-            print(word, end=" # ")
-    
-    file.close()
+try:
+    with open("sample.txt") as file:
+        for i in file.read().split():
+            print(i, end=" # ")
 except FileNotFoundError:
-    print("File not found")
+    print("File does not exist")
