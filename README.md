@@ -20,11 +20,11 @@ characters in the file.
 except for lines containing letter ‘a’.
 10. WAP to count the words ‘this’ and ‘that’ in text file
 11. Create a binary file with name and roll number. Search for a given roll number and
-display the name, if not found display appropriate message. `TBC`
+display the name, if not found display appropriate message.
 12. Create a binary file with roll number, name and marks. Input a roll number and
-update the marks. `TBC`
+update the marks. 
 13. WAP to write dictionary of names and phone numbers to binary file then search for
-a phone number using name. `TBC`
+a phone number using name.
 14. Write a menu driven program to perform insert,update and display on student
 binary file `TBC`
 15. WAP to create a CSV file and store empno, name, salary, and search any empno
